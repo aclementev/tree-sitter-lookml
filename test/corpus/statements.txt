@@ -58,3 +58,56 @@ some_number3: .23
   (statement
       (key)
       (number)))
+
+
+===
+block statement
+===
+
+some_block: {
+  some_string: "this is some string"
+  some_bool: yes
+  some_number: 123.123
+}
+
+---
+
+(object
+  (statement
+    (key)
+    (block
+      (object
+        (statement
+          (key)
+          (string))
+        (statement
+          (key)
+          (bool))
+        (statement
+          (key)
+          (number))))))
+
+===
+nested block statement
+===
+
+some_block: {
+  some_nested_block: {
+    has_value: yes
+  }
+}
+
+---
+
+(object
+  (statement
+    (key)
+    (block
+      (object
+        (statement
+          (key)
+          (block
+            (object
+              (statement
+                (key)
+                (bool)))))))))
