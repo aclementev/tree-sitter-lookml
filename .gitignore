@@ -36,3 +36,16 @@ dist/
 *.wasm
 *.obj
 *.o
+/Cargo.toml
+/Makefile
+/Package.swift
+/binding.gyp
+/bindings/
+/log.html
+/package.json
+/pyproject.toml
+/setup.py
+/src/grammar.json
+/src/node-types.json
+/src/parser.c
+/src/tree_sitter/
