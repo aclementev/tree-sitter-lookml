@@ -1,0 +1,23 @@
+===
+single comment
+===
+
+# This is a single line comment
+
+---
+
+(object
+  (comment))
+
+===
+double comment
+===
+
+# This is a single line comment
+# This is another line comment
+
+---
+
+(object
+  (comment)
+  (comment))
