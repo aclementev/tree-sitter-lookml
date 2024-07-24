@@ -111,3 +111,23 @@ some_block: {
               (statement
                 (key)
                 (bool)))))))))
+
+===
+named block statement
+===
+
+some_block: some_name {
+  has_value: yes
+}
+
+---
+
+(object
+  (statement
+    (key)
+    (block
+      (named_block
+        (object
+          (statement
+            (key)
+            (bool)))))))
