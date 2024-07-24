@@ -1,0 +1,60 @@
+===
+string statement
+===
+
+a_key: "some string"
+
+---
+
+(object
+  (statement
+      (key)
+      (string)))
+
+
+===
+bool statement
+===
+
+some_yes: yes
+some_no: no
+some_true: true
+some_false: false
+
+---
+
+(object
+  (statement
+      (key)
+      (bool))
+  (statement
+      (key)
+      (bool))
+  (statement
+      (key)
+      (bool))
+  (statement
+      (key)
+      (bool)))
+
+
+===
+number statement
+===
+
+some_number1: 123
+some_number2: 1.23
+some_number3: .23
+
+---
+
+(object
+  (statement
+      (key)
+      (number))
+  (statement
+      (key)
+      (number))
+  (statement
+      (key)
+      (number)))
